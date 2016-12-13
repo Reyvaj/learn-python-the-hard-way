@@ -1,0 +1,21 @@
+These are my notes on parts of the code I don't understand from the script "backup_automater_services.py" by Craig Richards.
+
+datetime.date.today()	    # Get Today's date
+
+.isoformat()              # Returns a string in the format ‘YYYY-MM-DD’.
+
+os.getenv()               # Return the value of the environment variable varname if it exists, or value if it doesn’t.
+
+.conf 					          # ?
+
+os.path.join()            # Join one or more path components intelligently. The return value is the concatenation of path \
+                            and any members of *paths with exactly one directory separator (os.sep) following each non-empty
+                            part except the last, meaning that the result will only end in a separator if the last part is empty.
+                            If a component is an absolute path, all previous components are thrown away and joining continues
+                            from the absolute path component.
+
+os.path.expanduser()	    # On Unix and Windows, return the argument with an initial component of ~ or ~user replaced by that user‘s home directory.
+
+.strip()								  # Strip out the blank lines from the configuration file
+
+.copytree()						  	# Copy the directories
