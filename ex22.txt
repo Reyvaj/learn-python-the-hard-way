@@ -1,0 +1,44 @@
+A list of all the characters and words
+I've used so far in the book "Learn Python the Hard Way."
+
+print       It shows text in the screen.
+python      When run in the command line followed by a file's
+            name, you can run python programs.
+#           A pound is used to write a comment.
++           Plus, addition.
+-           Minus, substraction.
+/           Slash, division.
+*           Asterisk, multiplication.
+%           Percent, Modulo.
+<           Less than.
+>           Greater than.
+<=          Equal or less than.
+>=          Equal or greater than.
+=           Equal sign, used to declare variables.
+%s          Substitutes part of the text with a variable
+            or number written outside the string.
+%r          Another formatter, replaces the %r
+            with a value given outside the string.
+            Used for debugging as it shows the raw data.
+""          Quotation marks denote a string.
+True        Boolean value.
+False       Boolean value.
+\n          New line.
+"""         Used to write multi line strings.
+\           Backslash, escape character.
+\\          Backslash.
+\t          Tab.
+raw_input() Asks the user for input. You can write
+            a prompt inside the parenthesis.
+from import Imports a feature to your script.
+argv        Argument variable.
+open()      It opens a file for reading or writing.
+            It creates an objet of the file.
+.read()     It reads the file.
+.truncate() It erases all the contents of a file.
+.close()    It closes (saves) the file.
+len()       Measures the lenght of a file or string.
+.write()    Writes contents into a file.
+def         Defines a function.
+%d          Format a number for display.
+return      It produces an output from the function.
